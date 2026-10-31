@@ -1,0 +1,3 @@
+curl http://localhost:8000/djangoapp/get_cars
+
+{"CarMakes":[{"model":"CarMake","pk":1,"fields":{"name":"Toyota","description":"Japanese Automobile Manufacturer"}},{"model":"CarMake","pk":2,"fields":{"name":"Ford","description":"American Automobile Manufacturer"}}],"CarModels":[{"model":"CarModel","pk":1,"fields":{"car_make":1,"name":"Camry","type":"SEDAN","year":2022}},{"model":"CarModel","pk":2,"fields":{"car_make":2,"name":"Mustang","type":"COUPE","year":2021}}]}
